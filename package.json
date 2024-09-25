@@ -1,0 +1,51 @@
+{
+  "name": "simple-react-ts",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "vite --config ./config/vite.config.start.ts",
+    "dist": "vite build --config ./config/vite.config.dist.ts",
+    "release": "vite build --config ./config/vite.config.release.ts",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
+    "@types/node": "^20.9.2",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "antd": "^5.21.1",
+    "autoprefixer": "^10.4.17",
+    "axios": "1.6.2",
+    "axios-jsonp": "^1.0.4",
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "husky": "^9.0.11",
+    "less": "^4.2.0",
+    "prettier": "^2.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.19.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-eslint": "^1.8.1",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@stylistic/stylelint-config": "^1.0.1",
+    "stylelint": "^16.2.1",
+    "stylelint-config-recess-order": "^4.6.0",
+    "stylelint-config-standard-less": "^3.0.1",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "vite-plugin-stylelint": "^5.3.1"
+  }
+}
